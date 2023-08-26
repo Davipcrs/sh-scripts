@@ -2,9 +2,7 @@ echo "instalador executado!"
 
 
 #installer
-#update section
-sudo apt -y upgrade
-sudo apt -y update
+bash system_maintainer.sh
 
 #repository adding
 sudo add-apt-repository universe -y
@@ -55,3 +53,6 @@ echo "Via o Site Oficial."
 echo ""
 echo "Instalador concluído"
 echo "================================================================================"
+
+bash system_data.sh
+
