@@ -35,10 +35,12 @@ sudo apt -y install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install -y flathub com.discordapp.Discord
 flatpak install -y flathub com.obsproject.Studio
+flatpak install -y flathub org.videolan.VLC
 
 #snap installers
 sudo snap install flutter --edge --classic
 sudo snap install spotify
+
 
 #scripts
 sudo updatedb
