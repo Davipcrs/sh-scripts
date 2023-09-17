@@ -1,24 +1,12 @@
 echo "instalador executado!"
 
-
-#installer
 bash system_maintainer.sh
-
-#repository adding
-#apt installers
 
 bash $PWD/installers/apt_installer.sh
 bash $PWD/installers/flatpak_installer.sh
 bash $PWD/installers/snap_installer.sh
-base $PWD/installers/wget_installer.sh
-
-
-
-
-
-#scripts
-
-
+bash $PWD/installers/wget_installer.sh
+bash $PWD/installers/pip_installer.sh
 
 echo ""
 echo ""
