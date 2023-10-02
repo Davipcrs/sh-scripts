@@ -3,8 +3,12 @@ sudo add-apt-repository universe -y
 sudo dpkg --add-architecture i386 
 sudo apt -y update
 
-sudo apt -y install git
+#gnome installs
 sudo apt -y install gnome-tweaks
+sudo apt -y install gnome-screenshot
+
+#general installs
+sudo apt -y install git
 sudo apt -y install wget
 sudo apt -y install flatpak
 sudo apt -y install snapd
