@@ -20,5 +20,8 @@ sudo apt -y install python3
 sudo apt -y install python3-pip
 sudo apt -y install wine32 wine64
 
+#vmware support
+sudo apt -y install libelf-dev
+
 #Android Studio support
 sudo apt -y install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
