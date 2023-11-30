@@ -20,6 +20,9 @@ sudo apt -y install python3
 sudo apt -y install python3-pip
 sudo apt -y install wine32 wine64
 
+#virt
+sudo apt -y install virt-manager
+
 #vmware support
 sudo apt -y install libelf-dev
 
