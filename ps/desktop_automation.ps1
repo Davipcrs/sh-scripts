@@ -1,0 +1,1 @@
+python zip_bkp.py "C:\Source\Directory\Path"  "C:\Output\Directory\Path"
